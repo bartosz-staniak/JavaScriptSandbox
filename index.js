@@ -12,7 +12,7 @@
     // console.log(array1.0); // crashes because of non-existing identifier
     array1.$1 = 5;
     console.log(array1.$0); console.log(typeof array1.$0); // undefined because of non-existing identifier?
-    console.log(array1.$1); console.log(typeof array1.$1); // undefined because of non-existing identifier?
+    console.log(array1.$1); console.log(typeof array1.$1); // result is 5
     console.log(array1[0]);
     console.log(array1); // [ 1, 2, 3, 4, '$1': 5 ]
 }

@@ -1,7 +1,7 @@
 // npx nodemon index.js
 
 {
-    const array1 = [1, 2, 3, 4];
+    /*const*/ array1 = [1, 2, 3, 4];
 }
 
 console.log(array1);

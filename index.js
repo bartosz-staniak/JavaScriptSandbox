@@ -14,7 +14,7 @@
     console.log(array1.$0); console.log(typeof array1.$0); // undefined because of non-existing identifier?
     console.log(array1.$1); console.log(typeof array1.$1); // undefined because of non-existing identifier?
     console.log(array1[0]);
-    
+    console.log();
 }
 
 // console.log(array1); // attempt to use a constant outside of its scope causes a crash as it is not defined

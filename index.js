@@ -5,7 +5,7 @@
     
     const object = {};
     console.log(object);
-    // console.log(object.1);
+    // console.log(object.1); // crashes because of non-existing identifier
     console.log(object.$1);
     object.$1 = "foo";
     console.log(object.$1);

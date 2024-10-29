@@ -18,3 +18,4 @@
 }
 
 // console.log(array1); // attempt to use a constant outside of its scope causes a crash as it is not defined
+

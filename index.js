@@ -20,5 +20,5 @@
 // console.log(array1); // attempt to use a constant outside of its scope causes a crash as it is not defined
 
 {
-    
+    const array1 = [1, 2, 3, 4];
 }

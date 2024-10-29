@@ -6,7 +6,7 @@
     const object = {};
     console.log(object);
     console.log(object.1);
-    
+    console.log(object.1);
     // console.log(array1.0);
     console.log(array1.$0); console.log(typeof array1.$0);
     console.log(array1.$1); console.log(typeof array1.$1);

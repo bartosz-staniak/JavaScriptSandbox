@@ -130,7 +130,7 @@
     const initialValue = 1; // a substitute for the 'previous result' the first time a callback function is run?
     const sumWithInitial = array1.reduce(
         (sum, iteratedValue) => {
-            console.log(return sum + iteratedValue);
+            return sum + iteratedValue
         }, initialValue
     );
 

@@ -133,7 +133,7 @@
             let sumPlusIterated = sum + iteratedValue;
             console.log("   " + sumPlusIterated);
             return sumPlusIterated
-        }, initialValue
+        }//, initialValue
     );
 
     console.log("Initial value: " + initialValue + ", Sum of the values in the array: " + sumWithInitial);

@@ -132,7 +132,7 @@
         (sum, iteratedValue) => {
             let cycleNo = 1;
             let sumPlusIterated = sum + iteratedValue;
-            console.log("   " + cycleNo +": " + sumPlusIterated);
+            console.log("   " + cycleNo++ +": " + sumPlusIterated);
             return sumPlusIterated
         }//, initialValue
     );

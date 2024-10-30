@@ -131,7 +131,7 @@
     const sumWithInitial = array1.reduce(
         (sum, iteratedValue) => {
             let sumPlusIterated = sum + iteratedValue;
-            return sum + iteratedValue
+            return sumPlusIterated
         }, initialValue
     );
 

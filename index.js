@@ -32,7 +32,7 @@
     const array1 = [1, 2, 3, 4];
 
     const initialValue = 0; // a substitute for the 'previous result' the first time a callback function is run?
-    const sumWithInitial = array1;
+    const sumWithInitial = array1.reduce();
 
     console.log("Initial value: " + initialValue + ", Sum of the values in the array: " + sumWithInitial);
 }

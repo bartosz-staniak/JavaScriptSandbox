@@ -25,5 +25,5 @@
     const initialValue = 0; // a substitute for the 'previous result' the first time a callback function is run?
     const sumWithInitial = array1;
 
-    console.log("Initial value: " + initialValue + ", Sum of the values in the array " + sumWithInitial);
+    console.log("Initial value: " + initialValue + ", Sum of the values in the array: " + sumWithInitial);
 }

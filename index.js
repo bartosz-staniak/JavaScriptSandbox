@@ -162,7 +162,7 @@
 
     const initialValue = 1; // a substitute for the 'previous result' the first time a callback function is run?
     let cycleNo = 1;
-    const sumWithInitial = array1.reduce(
+    const sumWithInitial = sparseArray1.reduce(
         (sum, iteratedValue) => {
             let sumPlusIterated = sum + iteratedValue;
             console.log("   " + cycleNo++ +": " + sumPlusIterated);

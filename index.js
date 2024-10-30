@@ -176,7 +176,7 @@
 {
     // const array1 = [1, 2, 3, 4];
     const sparseArray1 = [, , , 3, 4, 5]
-    sparseArray1[];
+    sparseArray1[0];
 
     const initialValue = 1; // a substitute for the 'previous result' the first time a callback function is run?
     let cycleNo = 1;

@@ -193,3 +193,5 @@
 
     console.log("Initial value: " + initialValue + ", Sum of the values in the array: " + sumWithInitial);
 }
+
+// Reduce end

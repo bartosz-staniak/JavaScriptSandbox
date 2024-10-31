@@ -202,4 +202,6 @@
         console.log("b", b);
         console.log("restArgs", restArgs);
     }
+
+    fun("one", "two", "three", "four", "five", "six", "seven", "eight");
 }

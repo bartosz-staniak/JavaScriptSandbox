@@ -211,7 +211,7 @@
 
     longestString(); // object
     longestString(1); // also object
-    
+    let returned = longestString("a", "abc", "ab");
 }
 
 {

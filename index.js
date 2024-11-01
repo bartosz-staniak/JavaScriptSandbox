@@ -196,6 +196,8 @@
 
 // Reduce end
 
+
+
 {
     function fun (a, b, ...restArgs) {
         console.log("a", a);

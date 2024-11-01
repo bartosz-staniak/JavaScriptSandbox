@@ -206,6 +206,7 @@
                 longest = arguments[i];
             }
         }
+        
     }
 
     longestString(); // object

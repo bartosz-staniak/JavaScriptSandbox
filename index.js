@@ -201,6 +201,8 @@
         let longest = "";
         console.log(typeof longest);
     }
+
+    
 }
 
 {

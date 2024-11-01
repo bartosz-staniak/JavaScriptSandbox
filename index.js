@@ -216,6 +216,25 @@
 }
 
 {
+    function longestString() {
+        let longest = "";
+        console.log(typeof arguments);
+
+        for (let i = 0; i < arguments.length; i++) {
+            if (arguments[i].length > longest.length) {
+                longest = arguments[i];
+            }
+        }
+        return longest;
+    }
+
+    longestString(); // object
+    longestString(1); // also object
+    let returned = longestString("a", "abc", "ab");
+    console.log(returned + ", " + typeof returned); // abc, string
+}
+
+{
     function fun (a, b, ...restArgs) {
         console.log("a", a);
         console.log("b", b);

@@ -201,8 +201,8 @@
         let longest = "";
         console.log(typeof arguments);
 
-        for () {
-            
+        for (let i = 0;) {
+
         }
     }
 

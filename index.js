@@ -235,7 +235,7 @@
     console.log(returned + ", " + typeof returned); // abc, string
 }
 
-
+// variadic end
 
 {
     function fun (a, b, ...restArgs) {

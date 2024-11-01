@@ -197,7 +197,9 @@
 // Reduce end
 
 {
-    
+    function longestString() {
+        
+    }
 }
 
 {

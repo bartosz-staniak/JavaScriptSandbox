@@ -199,7 +199,7 @@
 {
     function longestString() {
         let longest = "";
-        console.log(typeof longest);
+        console.log(typeof arguments);
     }
 
     longestString(); // console: string

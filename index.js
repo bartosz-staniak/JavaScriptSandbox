@@ -219,7 +219,7 @@
     function longestString() {
         let longest = "";
         console.log(typeof arguments);
-        
+        console.log("Type of the first argument: " + typeof arguments[0]);
 
         for (let i = 0; i < arguments.length; i++) {
             if (arguments[i].length > longest.length) {

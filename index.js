@@ -230,7 +230,7 @@
 
     longestString(); // object
     longestString(1); // also object
-    let returned = longestString("a", "abc", "ab");
+    let returned = longestString("a", "abc", "ab", 1);
     console.log(returned + ", " + typeof returned); // abc, string
 }
 

@@ -235,6 +235,8 @@
     console.log(returned + ", " + typeof returned); // abc, string
 }
 
+
+
 {
     function fun (a, b, ...restArgs) {
         console.log("a", a);

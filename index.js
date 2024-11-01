@@ -203,7 +203,7 @@
     }
 
     longestString();
-    
+    longestString(1);
 }
 
 {

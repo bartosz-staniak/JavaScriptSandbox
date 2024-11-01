@@ -202,7 +202,7 @@
         console.log(typeof arguments);
     }
 
-    longestString(); // console: string
+    longestString();
 }
 
 {

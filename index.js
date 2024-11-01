@@ -196,7 +196,9 @@
 
 // Reduce end
 
-
+function longestString() {
+    
+}
 
 {
     function fun (a, b, ...restArgs) {

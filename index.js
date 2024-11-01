@@ -203,7 +203,7 @@
     }
 
     longestString(); // console: string
-    longestString(1); // console: string    probably there is a concatenation "" + 1
+    longestString(1); // console: string
 }
 
 {

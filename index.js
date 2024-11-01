@@ -203,7 +203,7 @@
     }
 
     longestString(); // object
-    longestString(1);
+    longestString(1); // also object
 }
 
 {

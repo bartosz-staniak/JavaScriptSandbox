@@ -203,7 +203,6 @@
     }
 
     longestString(); // console: string
-    longestString(1); // console: string
 }
 
 {

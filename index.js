@@ -210,8 +210,6 @@
 
     longestString(); // object
     longestString(1); // also object
-
-    return longest;
 }
 
 {

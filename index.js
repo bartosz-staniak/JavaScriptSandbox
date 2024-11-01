@@ -196,7 +196,9 @@
 
 // Reduce end
 
-
+{
+    
+}
 
 {
     function fun (a, b, ...restArgs) {

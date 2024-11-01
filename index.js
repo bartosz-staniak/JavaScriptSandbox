@@ -200,6 +200,8 @@
     function longestString() {
         let longest = "";
         console.log(typeof longest);
+
+        
     }
 
     longestString(); // console: string

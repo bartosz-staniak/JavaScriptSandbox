@@ -201,7 +201,9 @@
         let longest = "";
         console.log(typeof arguments);
 
-        
+        for () {
+            
+        }
     }
 
     longestString(); // object

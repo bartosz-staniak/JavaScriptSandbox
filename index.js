@@ -198,7 +198,7 @@
 
 {
     function longestString() {
-        
+        let longest = "";
     }
 }
 

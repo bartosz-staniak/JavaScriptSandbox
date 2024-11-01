@@ -231,7 +231,7 @@
     longestString(); // object
     longestString(1); // also object
     let returned = longestString("a", 12345, "abc", "ab", 1);
-    console.log();
+    console.log("Type of the first argument: " + typeof arguments[0]);
     console.log(returned + ", " + typeof returned); // abc, string
 }
 

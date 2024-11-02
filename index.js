@@ -252,9 +252,9 @@
         let total = 0;
         for (const oneArg of arguments) {
             if () {
-                
+                total += oneArg;
             }
-            total += oneArg;
+            
         }
         return total;
     }

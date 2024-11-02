@@ -251,9 +251,7 @@
     function sum(...arguments) {
         let total = 0;
         for (const oneArg of arguments) {
-            if (Number(oneArg) > 0) {
-                total += oneArg;
-            }
+            total += oneArg;
         }
         return total;
     }

@@ -256,5 +256,5 @@
         return total;
     }
 
-    console.log(sum());
+    console.log(sum(10, 20, 30));
 }

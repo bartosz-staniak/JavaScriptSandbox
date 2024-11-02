@@ -250,5 +250,8 @@
 {
     function sum(...arguments) {
         let total = 0;
+        for () {
+            
+        }
     }
 }

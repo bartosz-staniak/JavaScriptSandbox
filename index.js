@@ -250,7 +250,7 @@
 {
     function sum(...arguments) {
         let total = 0;
-        for (const oneArg) {
+        for (const oneArg of arguments) {
 
         }
     }

@@ -254,7 +254,6 @@
             if () {
                 total += oneArg;
             }
-            
         }
         return total;
     }

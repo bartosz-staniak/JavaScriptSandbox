@@ -271,5 +271,5 @@
     }
 
     console.log(sum(10, 20, 30));
-    console.log(sum(10, "20", 30)); // due to type coercion the result is 102030
+    console.log(sum(10, "20", 30)); // problem removed by Number casting
 }

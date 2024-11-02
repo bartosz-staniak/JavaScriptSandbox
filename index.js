@@ -256,5 +256,5 @@
         return total;
     }
 
-    console.log();
+    console.log(sum());
 }

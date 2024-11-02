@@ -253,6 +253,6 @@
         for (const oneArg of arguments) {
             total += oneArg;
         }
-        
+        return total;
     }
 }

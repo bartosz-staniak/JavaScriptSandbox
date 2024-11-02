@@ -248,7 +248,7 @@
 }
 
 {
-    function sum() {
-        
+    function sum(...arguments) {
+
     }
 }

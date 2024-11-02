@@ -265,7 +265,7 @@
         let total = 0;
         for (const oneArg of arguments) {
             let numCastOneArg = Number(oneArg);
-            total += oneArg;
+            total += numCastOneArg;
         }
         return total;
     }

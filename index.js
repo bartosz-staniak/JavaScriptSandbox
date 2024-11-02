@@ -259,3 +259,16 @@
     console.log(sum(10, 20, 30));
     console.log(sum(10, "20", 30)); // due to type coercion the result is 102030
 }
+
+{
+    function sum(...arguments) {
+        let total = 0;
+        for (const oneArg of arguments) {
+            total += oneArg;
+        }
+        return total;
+    }
+
+    console.log(sum(10, 20, 30));
+    console.log(sum(10, "20", 30)); // due to type coercion the result is 102030
+}

@@ -264,7 +264,7 @@
     function sum(...arguments) {
         let total = 0;
         for (const oneArg of arguments) {
-            let numCastOneArg;
+            let numCastOneArg = Number(oneArg);
             total += oneArg;
         }
         return total;

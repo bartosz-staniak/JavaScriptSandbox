@@ -314,6 +314,6 @@
     ignoreFirst(1);
     ignoreFirst(1, 2);
     console.log(ignoreFirst()); // NaN removed using nullish coalescing '??'
-    console.log(ignoreFirst(1)); // NaN
-    console.log(ignoreFirst(1, 2)); // NaN probably because of null/undefined as c
+    console.log(ignoreFirst(1)); // NaN removed using nullish coalescing '??'
+    console.log(ignoreFirst(1, 2)); // NaN removed using nullish coalescing '??'
 }

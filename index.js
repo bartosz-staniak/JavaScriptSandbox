@@ -297,5 +297,5 @@
         return b + c;
     }
     ignoreFirst();
-    
+    ignoreFirst();
 }

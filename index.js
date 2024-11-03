@@ -297,5 +297,5 @@
         return b + c;
     }
     ignoreFirst();
-    console.log(ignoreFirst());
+    console.log(ignoreFirst()); // NaN
 }

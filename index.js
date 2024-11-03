@@ -293,5 +293,7 @@
 }
 
 {
-    
+    function ignoreFirst() {
+        
+    }
 }

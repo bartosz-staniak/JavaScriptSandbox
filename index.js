@@ -293,7 +293,7 @@
 }
 
 {
-    function ignoreFirst(...) {
+    function ignoreFirst(...[]) {
 
     }
 }

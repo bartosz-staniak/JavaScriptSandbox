@@ -274,3 +274,18 @@
     console.log(sum(10, "20", 30)); // problem removed by Number casting
     console.log(sum(10, "20", "abc", "030")); // NaN as the non numeric string could not be converted to a number
 }
+
+{
+    function sum(...arguments) {
+        let total = 0;
+        for (const oneArg of arguments) {
+            let numCastOneArg = Number(oneArg);
+            total += numCastOneArg;
+        }
+        return total;
+    }
+
+    console.log(sum(10, 20, 30));
+    console.log(sum(10, "20", 30)); // problem removed by Number casting
+    console.log(sum(10, "20", "abc", "030")); // NaN as the non numeric string could not be converted to a number
+}

@@ -305,3 +305,17 @@
     console.log(ignoreFirst(1, 2)); // NaN probably because of null/undefined as c
     
 }
+
+{
+    function ignoreFirst(...[, b, c]) {
+        console.log("The first arguments element: " + arguments[0]);
+        return b + c;
+    }
+    ignoreFirst();
+    ignoreFirst(1);
+    ignoreFirst(1, 2);
+    console.log(ignoreFirst()); // NaN
+    console.log(ignoreFirst(1)); // NaN
+    console.log(ignoreFirst(1, 2)); // NaN probably because of null/undefined as c
+    
+}

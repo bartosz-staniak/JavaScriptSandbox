@@ -300,7 +300,7 @@
     ignoreFirst();
     ignoreFirst(1);
     ignoreFirst(1, 2);
-    //console.log(ignoreFirst()); // NaN
-    //console.log(ignoreFirst(1)); // NaN
+    console.log(ignoreFirst()); // NaN
+    console.log(ignoreFirst(1)); // NaN
     
 }

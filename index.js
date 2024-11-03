@@ -291,3 +291,7 @@
     console.log(sum(10, "20", "abc", "030")); // problem removed by checking for NaN and assigning a zero '0' in case NaN is present
     console.log(sum(10, "20", "abc", "030", "", " ", -1));
 }
+
+{
+    
+}

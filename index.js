@@ -287,9 +287,9 @@
     }
 
     console.log("Sum function result: " + sum(10, 20, 30));
-    console.log(sum(10, "20", 30)); // problem removed by Number casting
-    console.log(sum(10, "20", "abc", "030")); // problem removed by checking for NaN and assigning a zero '0' in case NaN is present
-    console.log(sum(10, "20", "abc", "030", "", " ", -1));
+    console.log("Sum function result: " + sum(10, "20", 30)); // problem removed by Number casting
+    console.log("Sum function result: " + sum(10, "20", "abc", "030")); // problem removed by checking for NaN and assigning a zero '0' in case NaN is present
+    console.log("Sum function result: " + sum(10, "20", "abc", "030", "", " ", -1));
 }
 
 {

@@ -298,5 +298,5 @@
     }
     ignoreFirst();
     console.log(ignoreFirst()); // NaN
-    console.log(ignoreFirst());
+    console.log(ignoreFirst(1));
 }

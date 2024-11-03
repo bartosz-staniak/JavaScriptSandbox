@@ -281,7 +281,7 @@
         for (const oneArg of arguments) {
             let numCastOneArg = Number(oneArg);
             let argNanChecked = Number.isNaN(numCastOneArg);
-            total += numCastOneArg;
+            total += argNanChecked;
         }
         return total;
     }

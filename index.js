@@ -308,7 +308,7 @@
 {
     function ignoreFirst(...[, b, c]) {
         console.log("The first arguments element: " + arguments[0]);
-        return b + (c ?? 0);
+        return (b ?? 0) + (c ?? 0);
     }
     ignoreFirst();
     ignoreFirst(1);

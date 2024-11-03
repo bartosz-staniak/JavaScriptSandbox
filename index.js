@@ -302,6 +302,6 @@
     ignoreFirst(1, 2);
     console.log(ignoreFirst()); // NaN
     console.log(ignoreFirst(1)); // NaN
-    console.log(ignoreFirst(1, 2));
+    console.log(ignoreFirst(1, 2)); // NaN probably because of null as c
     
 }

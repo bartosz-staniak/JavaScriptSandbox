@@ -280,7 +280,7 @@
         let total = 0;
         for (const oneArg of arguments) {
             let numCastOneArg = Number(oneArg);
-            
+            Number.isNaN();
             total += numCastOneArg;
         }
         return total;

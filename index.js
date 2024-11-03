@@ -294,6 +294,7 @@
 
 {
     function ignoreFirst(...[, b, c]) {
+        
         return b + c;
     }
     ignoreFirst();

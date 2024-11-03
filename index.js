@@ -278,7 +278,7 @@
 {
     function sum(...args) {
         let total = 0;
-        for (const oneArg of arguments) {
+        for (const oneArg of args) {
             let numCastOneArg = Number(oneArg);
             let argNanChecked = Number.isNaN(numCastOneArg) ? 0 : numCastOneArg;
             total += argNanChecked;

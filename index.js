@@ -272,5 +272,5 @@
 
     console.log(sum(10, 20, 30));
     console.log(sum(10, "20", 30)); // problem removed by Number casting
-    console.log(sum(10, "20", "abc", "030"));
+    console.log(sum(10, "20", "abc", "030")); // NaN as the non numeric string could not be converted to a number
 }

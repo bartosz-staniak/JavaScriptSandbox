@@ -317,5 +317,5 @@
     console.log(ignoreFirst(1)); // NaN removed using nullish coalescing '??'
     console.log(ignoreFirst(1, 2)); // NaN removed using nullish coalescing '??'
     console.log(ignoreFirst(1, 2, 3)); // 5
-    console.log(ignoreFirst(1, 2, "1", 3));
+    console.log(ignoreFirst(1, 2, "1", 3)); // 21 due to type coalescing into string
 }

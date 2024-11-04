@@ -332,9 +332,9 @@
     ignoreFirst();
     ignoreFirst(1);
     ignoreFirst(1, 2);
-    console.log(ignoreFirst()); // NaN removed using nullish coalescing '??'
-    console.log(ignoreFirst(1)); // NaN removed using nullish coalescing '??'
-    console.log(ignoreFirst(1, 2)); // NaN removed using nullish coalescing '??'
+    console.log(ignoreFirst()); // NaN removed using a zero '0' when NaN
+    console.log(ignoreFirst(1)); // NaN removed using a zero '0' when NaN
+    console.log(ignoreFirst(1, 2)); // NaN removed using a zero '0' when NaN
     console.log(ignoreFirst(1, 2, 3)); // 5
     console.log(ignoreFirst(1, 2, "1", 3)); // 21 due to type coercion into string
 }

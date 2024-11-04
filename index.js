@@ -316,5 +316,5 @@
     console.log(ignoreFirst()); // NaN removed using nullish coalescing '??'
     console.log(ignoreFirst(1)); // NaN removed using nullish coalescing '??'
     console.log(ignoreFirst(1, 2)); // NaN removed using nullish coalescing '??'
-    console.log(ignoreFirst());
+    console.log(ignoreFirst(1, 2, 3));
 }

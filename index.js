@@ -337,5 +337,5 @@
     console.log(ignoreFirst(1, 2)); // NaN removed using a zero '0' when NaN
     console.log(ignoreFirst(1, 2, 3)); // 5
     console.log(ignoreFirst(1, 2, "1", 3)); // Type coercion avoided by casting parameter into a number or using a 0 in case of NaN
-    console.log(ignoreFirst(1, 2, "1", 3));
+    console.log(ignoreFirst(1, 2, "string", 3));
 }

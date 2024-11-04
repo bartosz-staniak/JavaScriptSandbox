@@ -319,3 +319,18 @@
     console.log(ignoreFirst(1, 2, 3)); // 5
     console.log(ignoreFirst(1, 2, "1", 3)); // 21 due to type coercion into string
 }
+
+{
+    function ignoreFirst(...[, b, c]) {
+        console.log("The first arguments element: " + arguments[0]);
+        return (b ?? 0) + (c ?? 0);
+    }
+    ignoreFirst();
+    ignoreFirst(1);
+    ignoreFirst(1, 2);
+    console.log(ignoreFirst()); // NaN removed using nullish coalescing '??'
+    console.log(ignoreFirst(1)); // NaN removed using nullish coalescing '??'
+    console.log(ignoreFirst(1, 2)); // NaN removed using nullish coalescing '??'
+    console.log(ignoreFirst(1, 2, 3)); // 5
+    console.log(ignoreFirst(1, 2, "1", 3)); // 21 due to type coercion into string
+}

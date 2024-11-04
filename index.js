@@ -325,7 +325,7 @@
         console.log("The first arguments element: " + arguments[0]);
         b = Number(b);
         c = Number(c);
-        return (b ?? 0) + (c ?? 0);
+        return b + c;
     }
     ignoreFirst();
     ignoreFirst(1);

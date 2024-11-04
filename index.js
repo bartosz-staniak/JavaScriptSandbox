@@ -324,7 +324,9 @@
     function ignoreFirst(...[, b, c]) {
         console.log("The first arguments element: " + arguments[0]);
         b = Number(b);
+        b = Number.isNaN(b) ? 0 : b;
         c = Number(c);
+        c = Number.isNaN(c) ? 0 : c;
         return b + c;
     }
     ignoreFirst();

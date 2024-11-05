@@ -341,5 +341,7 @@
 }
 
 {
-    
+    function sortRestArgs(...theArgs) {
+        
+    }
 }

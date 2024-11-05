@@ -346,5 +346,5 @@
         return sortedArgs;
     }
 
-    
+    console.log(sortRestArgs());
 }

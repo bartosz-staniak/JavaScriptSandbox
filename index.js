@@ -342,6 +342,6 @@
 
 {
     function sortRestArgs(...theArgs) {
-        const sortedArgs;
+        const sortedArgs = theArgs;
     }
 }

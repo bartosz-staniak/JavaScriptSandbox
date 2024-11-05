@@ -339,3 +339,7 @@
     console.log(ignoreFirst(1, 2, "1", 3)); // Type coercion avoided by casting parameter into a number or using a 0 in case of NaN
     console.log(ignoreFirst(1, 2, "string", 3)); // Type coercion avoided by casting parameter into a number or using a 0 in case of NaN
 }
+
+{
+    
+}

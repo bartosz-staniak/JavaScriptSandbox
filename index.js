@@ -348,3 +348,12 @@
 
     console.log(sortRestArgs()); // []
 }
+
+{
+    function sortRestArgs(...theArgs) {
+        const sortedArgs = theArgs;
+        return sortedArgs;
+    }
+
+    console.log(sortRestArgs()); // []
+}

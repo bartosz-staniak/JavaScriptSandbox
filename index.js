@@ -360,7 +360,7 @@
 
 {
     function sortRestArgs(...theArgs) {
-        const sortedArgs = theArgs;
+        const sortedArgs = theArgs.sort();
         return sortedArgs;
     }
 

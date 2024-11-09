@@ -369,7 +369,7 @@
 
 {
     function sortRestArgs(...theArgs) {
-        const sortedArgs = arguments.sort();
+        const sortedArgs = arguments.sort(); // arguments.sort() cannot be used with a rest variable
         return sortedArgs;
     }
 

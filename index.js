@@ -369,7 +369,7 @@
 
 {
     function sortRestArgs(...theArgs) {
-        const sortedArgs = theArgs.sort();
+        const sortedArgs = arguments.sort();
         return sortedArgs;
     }
 

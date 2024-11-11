@@ -407,5 +407,5 @@
         return theElements.map((element) => multipliler);
     }
 
-    const returnedArray;
+    const returnedArray = multiplyEachElementByFirstParam();
 }

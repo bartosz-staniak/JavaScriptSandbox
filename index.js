@@ -382,8 +382,8 @@
         return sortedArgs;
     }
 
-    function compareNumbers() {
-        
+    function compareNumbers(a, b) {
+
     }
 
     console.log(sortRestArgs(1, 3, 2, 7, 12 , 0)); // [ 0, 1, 12, 2, 3, 7 ] revisit

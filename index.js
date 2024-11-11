@@ -406,4 +406,6 @@
     function multiplyEachElementByFirstParam(multiplier, ...theElements) {
         return theElements.map((element) => multipliler);
     }
+
+    
 }

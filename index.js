@@ -399,5 +399,5 @@
         return b - a;
     }
 
-    console.log(sortRestArgs(1, 3, 2, 7, 12 , 0)); // [ 0, 1, 2, 3, 7, 12 ]
+    console.log(sortRestArgs(1, 3, 2, 7, 12 , 0)); // [ 12, 7, 3, 2, 1, 0 ]
 }

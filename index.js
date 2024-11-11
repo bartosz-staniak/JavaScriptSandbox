@@ -403,5 +403,7 @@
 }
 
 {
-    
+    function multiplyEachElementByFirstParam() {
+        
+    }
 }

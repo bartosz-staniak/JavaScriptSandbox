@@ -404,6 +404,6 @@
 
 {
     function multiplyEachElementByFirstParam(multiplier, ...theElements) {
-
+        theElements
     }
 }

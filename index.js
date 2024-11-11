@@ -388,3 +388,16 @@
 
     console.log(sortRestArgs(1, 3, 2, 7, 12 , 0)); // [ 0, 1, 2, 3, 7, 12 ]
 }
+
+{
+    function sortRestArgs(...theArgs) {
+        const sortedArgs = theArgs.sort(compareNumbers);
+        return sortedArgs;
+    }
+
+    function compareNumbers(a, b) {
+        return a - b;
+    }
+
+    console.log(sortRestArgs(1, 3, 2, 7, 12 , 0)); // [ 0, 1, 2, 3, 7, 12 ]
+}

@@ -403,7 +403,7 @@
 }
 
 {
-    function multiplyEachElementByFirstParam(multiplier) {
+    function multiplyEachElementByFirstParam(multiplier, ...theElements) {
 
     }
 }

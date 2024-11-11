@@ -378,7 +378,7 @@
 
 {
     function sortRestArgs(...theArgs) {
-        const sortedArgs = theArgs.sort();
+        const sortedArgs = theArgs.sort(compareNumbers);
         return sortedArgs;
     }
 

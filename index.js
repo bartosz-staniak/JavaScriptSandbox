@@ -407,5 +407,5 @@
         return theElements.map((element) => multipliler);
     }
 
-    
+    constant returnedArray;
 }

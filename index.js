@@ -475,7 +475,7 @@
 }
 
 {
-    function concatenateNumberWithCurrency(disregarded, index, ...theElements) {
+    function concatenateNumberWithCurrency(string, index, ...theElements) {
         return theElements.map((element, index) => element + " EUR"); // crashes as 'element' is not defined
     }
 

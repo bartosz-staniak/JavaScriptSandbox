@@ -408,5 +408,5 @@
     }
 
     const returnedArray = multiplyEachElementByFirstParam();
-    console.log(returnedArray);
+    console.log(returnedArray); // []
 }

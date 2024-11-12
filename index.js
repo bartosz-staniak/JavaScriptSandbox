@@ -476,7 +476,7 @@
 
 {
     function concatenateNumberWithCurrency(string, index, ...theElements) {
-        return theElements.map((element, index) => element + " "); // crashes as 'element' is not defined
+        return theElements.map((element, index) => element + " " + string); // crashes as 'element' is not defined
     }
 
     const returnedArray = concatenateNumberWithCurrency(2, 3, 4, 5, 6, 7);

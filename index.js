@@ -439,7 +439,7 @@
 }
 
 {
-    function multiplyEachElementByFirstParam(multiplier, ...theElements) {
+    function multiplyEachElementByFirstParam(multiplier, index, ...theElements) {
         return theElements.map(element, index => multiplier * element);
     }
 

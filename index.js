@@ -462,5 +462,5 @@
     }
 
     const returnedArray = multiplyEachElementByFirstParam(2, 3, 4, 5, 6, 7);
-    console.log(returnedArray); // [-1, -2, -3, -4, -5, -6, -7]
+    console.log(returnedArray); // [8, 10, 12, 14]
 }

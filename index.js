@@ -464,3 +464,12 @@
     const returnedArray = multiplyEachElementByFirstParam(2, 3, 4, 5, 6, 7);
     console.log(returnedArray); // [8, 10, 12, 14]
 }
+
+{
+    function multiplyEachElementByFirstParam(multiplier, index, ...theElements) {
+        return theElements.map((element, index) => multiplier * element); // crashes as 'element' is not defined
+    }
+
+    const returnedArray = multiplyEachElementByFirstParam(2, 3, 4, 5, 6, 7);
+    console.log(returnedArray); // [8, 10, 12, 14]
+}

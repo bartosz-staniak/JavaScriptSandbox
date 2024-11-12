@@ -466,7 +466,7 @@
 }
 
 {
-    function multiplyEachElementByFirstParam(disregard, index, ...theElements) {
+    function multiplyEachElementByFirstParam(disregarded, index, ...theElements) {
         return theElements.map((element, index) => element + " EUR"); // crashes as 'element' is not defined
     }
 

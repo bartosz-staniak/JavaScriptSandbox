@@ -473,3 +473,12 @@
     const returnedArray = concatenateNumberWithCurrency(2, 3, 4, 5, 6, 7);
     console.log(returnedArray); // [ '4 EUR', '5 EUR', '6 EUR', '7 EUR' ]
 }
+
+{
+    function concatenateNumberWithCurrency(disregarded, index, ...theElements) {
+        return theElements.map((element, index) => element + " EUR"); // crashes as 'element' is not defined
+    }
+
+    const returnedArray = concatenateNumberWithCurrency(2, 3, 4, 5, 6, 7);
+    console.log(returnedArray); // [ '4 EUR', '5 EUR', '6 EUR', '7 EUR' ]
+}

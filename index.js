@@ -437,3 +437,12 @@
     const returnedArray = multiplyEachElementByFirstParam(-1, 0, 1, 2, 3, 4, 5, 6, 7);
     console.log(returnedArray); // [-0, -1, -2, -3, -4, -5, -6, -7]
 }
+
+{
+    function multiplyEachElementByFirstParam(multiplier, ...theElements) {
+        return theElements.map(element => multiplier * element);
+    }
+
+    const returnedArray = multiplyEachElementByFirstParam(-1, 0, 1, 2, 3, 4, 5, 6, 7);
+    console.log(returnedArray); // [-0, -1, -2, -3, -4, -5, -6, -7]
+}

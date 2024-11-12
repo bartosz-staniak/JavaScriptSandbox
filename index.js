@@ -404,7 +404,7 @@
 
 {
     function multiplyEachElementByFirstParam(multiplier, ...theElements) {
-        return theElements.map((element) => multipliler);
+        return theElements.map((element) => multiplier);
     }
 
     const returnedArray = multiplyEachElementByFirstParam();
@@ -413,7 +413,7 @@
 
 {
     function multiplyEachElementByFirstParam(multiplier, ...theElements) {
-        return theElements.map((element) => multipliler);
+        return theElements.map((element) => multiplier);
     }
 
     const returnedArray = multiplyEachElementByFirstParam(-1, 0, 1, 2, 3, 4, 5, 6, 7);

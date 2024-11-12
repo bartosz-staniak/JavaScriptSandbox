@@ -440,7 +440,7 @@
 
 {
     function multiplyEachElementByFirstParam(multiplier, index, ...theElements) {
-        return theElements.map(element, index => multiplier * element); // crashes as 'element' is not defined
+        // return theElements.map(element, index => multiplier * element); // crashes as 'element' is not defined
     }
 
     const returnedArray = multiplyEachElementByFirstParam(-1, 0, 1, 2, 3, 4, 5, 6, 7);

@@ -467,7 +467,7 @@
 
 {
     function multiplyEachElementByFirstParam(multiplier, index, ...theElements) {
-        return theElements.map((element, index) => multiplier * element); // crashes as 'element' is not defined
+        return theElements.map((element, index) => element + " EUR"); // crashes as 'element' is not defined
     }
 
     const returnedArray = multiplyEachElementByFirstParam(2, 3, 4, 5, 6, 7);

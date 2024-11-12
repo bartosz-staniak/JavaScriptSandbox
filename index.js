@@ -410,3 +410,12 @@
     const returnedArray = multiplyEachElementByFirstParam();
     console.log(returnedArray); // []
 }
+
+{
+    function multiplyEachElementByFirstParam(multiplier, ...theElements) {
+        return theElements.map((element) => multipliler);
+    }
+
+    const returnedArray = multiplyEachElementByFirstParam();
+    console.log(returnedArray); // []
+}

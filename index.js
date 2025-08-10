@@ -498,7 +498,9 @@
 }
 
 {
+    console.log();
     // The JavaScript call() Method
+    console.log("// The JavaScript call() Method //")
 
     const person = {
         fullName: function() {

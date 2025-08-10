@@ -485,7 +485,9 @@
 
 {
     const person = {
-        
+        fullName: function() {
+            
+        }
     }
 }
 

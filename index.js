@@ -550,7 +550,7 @@
         lastName: "Doe"
     }
 
-    person.fullName.call(person1);
+    console.log(person.fullName.call(person1));
 }
 
 // npx nodemon index.js

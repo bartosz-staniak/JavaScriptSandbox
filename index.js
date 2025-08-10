@@ -525,7 +525,8 @@
     console.log(person.fullName()); // undefined undefined
 
     const person1 = {
-        
+        firstName: "John",
+        lastName: "Doe"
     }
 }
 

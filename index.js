@@ -591,7 +591,7 @@
         }
     }
     console.log(this.firstName); // undefined
-    console.log(person.fullName()); // undefined undefined
+    console.log(person.fullName()); // undefined undefined, undefined, undefined
 
     const person1 = {
         firstName: "John",

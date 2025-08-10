@@ -572,7 +572,7 @@
     }
 
     const person2 = {
-        firstName: "John",
+        firstName: "Mary",
         lastName: "Doe"
     }
 

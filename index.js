@@ -490,10 +490,9 @@
         fullName: function() {
             return this.firstName + " " + this.lastName;
         }
-        
     }
 
-
+    
 }
 
 // npx nodemon index.js

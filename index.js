@@ -598,7 +598,7 @@
         lastName: "Doe"
     }
 
-    
+    person.fullName.call(person1, "Oslo", "Norway");
 }
 
 // npx nodemon index.js

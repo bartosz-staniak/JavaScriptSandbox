@@ -587,7 +587,7 @@
 
     const person = {
         fullName: function(city, country) {
-            return this.firstName + " " + this.lastName;
+            return this.firstName + " " + this.lastName + ", " + city + ", " + country;
         }
     }
     console.log(this.firstName); // undefined

@@ -601,6 +601,25 @@
     person.fullName.call(person1, "Oslo", "Norway");
 }
 
+{
+    console.log();
+    // The JavaScript call() Method
+    console.log("// The JavaScript call() Method //")
 
+    const person = {
+        fullName: function(city, country) {
+            return this.firstName + " " + this.lastName + ", " + city + ", " + country;
+        }
+    }
+    console.log(this.firstName); // undefined
+    console.log(person.fullName()); // undefined undefined, undefined, undefined
+
+    const person1 = {
+        firstName: "John",
+        lastName: "Doe"
+    }
+
+    person.fullName.call(person1, "Oslo", "Norway");
+}
 
 // npx nodemon index.js

@@ -484,7 +484,7 @@
 }
 
 {
-    
+    console.log();
     // The JavaScript call() Method
     console.log("// The JavaScript call() Method //")
 

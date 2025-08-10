@@ -484,7 +484,9 @@
 }
 
 {
-
+    const person = {
+        
+    }
 }
 
 // npx nodemon index.js

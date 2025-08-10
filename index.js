@@ -577,7 +577,7 @@
     }
 
     console.log(person.fullName.call(person1)); // John Doe
-    
+    console.log(person.fullName.call(person1));
 }
 
 // npx nodemon index.js

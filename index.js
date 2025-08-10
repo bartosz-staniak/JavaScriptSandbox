@@ -508,7 +508,7 @@
         }
     }
     console.log(this.firstName); // undefined
-    person.fullName();
+    console.log(person.fullName());
 }
 
 // npx nodemon index.js

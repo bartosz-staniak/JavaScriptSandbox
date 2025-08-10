@@ -495,6 +495,16 @@
     console.log(this.firstName); // undefined
 }
 
+{
+    // The JavaScript call() Method
 
+    const person = {
+        fullName: function() {
+            return this.firstName + " " + this.lastName;
+        }
+    }
+
+    console.log(this.firstName); // undefined
+}
 
 // npx nodemon index.js

@@ -484,8 +484,8 @@
 }
 
 {
+    // The JavaScript call() Method
 
-    
     const person = {
         fullName: function() {
             return this.firstName + " " + this.lastName;

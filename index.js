@@ -571,7 +571,7 @@
         lastName: "Doe"
     }
 
-    const person1 = {
+    const person2 = {
         firstName: "John",
         lastName: "Doe"
     }

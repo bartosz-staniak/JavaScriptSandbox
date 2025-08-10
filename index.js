@@ -510,7 +510,9 @@
     console.log(this.firstName); // undefined
     console.log(person.fullName()); // undefined undefined
 
-    
+    const person1 = {
+
+    }
 }
 
 // npx nodemon index.js

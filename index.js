@@ -482,3 +482,4 @@
     const returnedArray = concatenateNumberWithCurrency("EUR", 3, 4, 5, 6, 7);
     console.log(returnedArray); // [ '4 EUR', '5 EUR', '6 EUR', '7 EUR' ]
 }
+

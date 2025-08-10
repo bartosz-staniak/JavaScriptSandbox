@@ -580,4 +580,6 @@
     console.log(person.fullName.call(person2)); // Mary Doe
 }
 
+
+
 // npx nodemon index.js

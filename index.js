@@ -571,7 +571,10 @@
         lastName: "Doe"
     }
 
-    
+    const person1 = {
+        firstName: "John",
+        lastName: "Doe"
+    }
 
     console.log(person.fullName.call(person1)); // John Doe
 }

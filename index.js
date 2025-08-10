@@ -511,6 +511,18 @@
     console.log(person.fullName()); // undefined undefined
 }
 
+{
+    console.log();
+    // The JavaScript call() Method
+    console.log("// The JavaScript call() Method //")
 
+    const person = {
+        fullName: function() {
+            return this.firstName + " " + this.lastName;
+        }
+    }
+    console.log(this.firstName); // undefined
+    console.log(person.fullName()); // undefined undefined
+}
 
 // npx nodemon index.js

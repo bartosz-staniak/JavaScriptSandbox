@@ -505,6 +505,7 @@
     }
 
     console.log(this.firstName); // undefined
+    
 }
 
 // npx nodemon index.js

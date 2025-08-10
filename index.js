@@ -492,7 +492,7 @@
         }
     }
 
-    
+    console.log(this.firstName);
 }
 
 // npx nodemon index.js

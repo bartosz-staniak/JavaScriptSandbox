@@ -586,7 +586,7 @@
     console.log("// The JavaScript call() Method //")
 
     const person = {
-        fullName: function() {
+        fullName: function(city, country) {
             return this.firstName + " " + this.lastName;
         }
     }

@@ -483,3 +483,6 @@
     console.log(returnedArray); // [ '4 EUR', '5 EUR', '6 EUR', '7 EUR' ]
 }
 
+{
+    
+}
